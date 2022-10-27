@@ -2,6 +2,7 @@ import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Image from 'react-bootstrap/Image'
+import { Link } from 'react-router-dom';
 
 const CourseDetailCard = ({course}) => {
     const { _id, title, types, teacher, details, fee, image_url } = course;
@@ -36,7 +37,9 @@ const CourseDetailCard = ({course}) => {
                 </Card.Text>
             </Card.Body>
             <Card.Footer className="text-muted">
-                <Button variant="primary">Get Premium Access</Button>
+                <Link to={`/courses/${_id}`}>
+                    <Button variant="primary">Get Premium Access</Button>
+                </Link>
             </Card.Footer>
         </Card>
     );
