@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import Main from "../../layout/Main";
+import CourseList from "../../Pages/CourseList/CourseList/CourseList";
 import Courses from "../../Pages/Courses/Courses/Courses";
-import CoursList from "../../Pages/CoursList/CoursList/CoursList";
 import Home from "../../Pages/Home/Home/Home";
 
 export const routes = createBrowserRouter([
@@ -14,8 +14,8 @@ export const routes = createBrowserRouter([
                 element: <Home></Home>
             },
             {
-                path: '/coursList/:id',
-                element: <CoursList></CoursList>
+                path: '/courseList/:id',
+                element: <CourseList></CourseList>
             },
             {
                 path: '/courses/:id',
