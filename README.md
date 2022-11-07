@@ -1,3 +1,27 @@
+
+<!-- Live Website: https://learning-computer-64f7b.web.app/
+
+Bullet Points:
+
+Basic Router Setup:
+
+npm i react-router-dom
+create a router using createBrowserRouter
+add RouterProvider and set router prop
+Create a lot of components
+create Main layout with some common part and one changing part based on the route
+set main layout at the root of the route
+set children routes
+set links on the header components
+
+Context API
+
+declare a context using createContext
+set provider with value [single value, object, array] -->
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
