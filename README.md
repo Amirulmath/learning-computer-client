@@ -1,25 +1,25 @@
 
-<!-- Live Website: https://learning-computer-64f7b.web.app/
+Live Website: https://learning-computer-64f7b.web.app/
 
 Bullet Points:
 
 Basic Router Setup:
+1. npm i react-router-dom
+2. create a router using createBrowserRouter
+3. Add RouterProvider and set router prop
+4. Create a lot of components
+5. Create Main layout with some common part and one changing part based on the route
+6. Set main layout at the root of the route
+7. Set children routes
+8. Set links on the header components
 
-npm i react-router-dom
-create a router using createBrowserRouter
-add RouterProvider and set router prop
-Create a lot of components
-create Main layout with some common part and one changing part based on the route
-set main layout at the root of the route
-set children routes
-set links on the header components
-
-Context API
-
-declare a context using createContext
-set provider with value [single value, object, array] -->
-
-
+Firebase:
+1. create firebase app
+2. get firebase configuration inside firebase.config.js
+3. make sure to export app from firebase config
+4. install firebase and react router dom
+5. install bootstrap and react-bootstrap
+6. make sure to import bootstrap css in the index.js file
 
 
 # Getting Started with Create React App
