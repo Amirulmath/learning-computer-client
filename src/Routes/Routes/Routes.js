@@ -7,6 +7,7 @@ import FAQpage from "../../Pages/FAQpage/FAQpage/FAQpage";
 import Home from "../../Pages/Home/Home/Home";
 import Login from "../../Pages/Login/Login/Login";
 import Register from "../../Pages/Login/Register/Register";
+import NotFound from "../../Pages/NotFound/NotFound";
 import Services from "../../Pages/Services/Services";
 import PrivateRoute from "../PrivateRoute/PrivateRoute";
 
@@ -50,6 +51,10 @@ export const routes = createBrowserRouter([
             {
                 path: '/register',
                 element: <Register></Register>
+            },
+            {
+                path: '/*',
+                element: <NotFound></NotFound>
             }
 
         ]
