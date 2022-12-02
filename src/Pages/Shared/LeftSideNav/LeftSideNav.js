@@ -14,7 +14,7 @@ const LeftSideNav = () => {
 
     return (
         <div>
-            <h2>List of Courses: {lists.length}</h2>
+            <h2>List of Courses</h2>
             <div>
                 {
                     lists.map(list => <p key={list.course_id}>
