@@ -7,7 +7,7 @@ const ListCardCourses = ({course}) => {
     const { title, image_url, _id } = course;
 
     return (
-        <Card className="text-center">
+        <Card className="text-center mb-4">
             <Card.Body>
                 <Card.Title>{title}</Card.Title>
                 <Card.Img className="mb-2" variant="top" src={image_url} />
