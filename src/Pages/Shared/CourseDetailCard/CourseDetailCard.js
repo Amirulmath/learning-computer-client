@@ -40,9 +40,12 @@ const CourseDetailCard = ({ course }) => {
                         <p><b>Course Fee: </b>Tk.{fee}</p>
                     </Card.Text>
                 </Card.Body>
-                <Card.Footer className="text-muted">
+                <Card.Footer className="text-muted d-flex justify-content-between">
                     <Link to={`/courses/${_id}`}>
                         <Button variant="primary">Get Premium Access</Button>
+                    </Link>
+                    <Link to='/'>
+                        <Button variant="dark">Back</Button>
                     </Link>
                 </Card.Footer>
             </Card>

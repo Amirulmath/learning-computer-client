@@ -6,7 +6,7 @@ import './Home.css';
 const Home = () => {
     const courses = useLoaderData();
     return (
-        <div className='card-list'>
+        <div className='card-list mb-4'>
             {
                 courses.map(course =><ListCardCourses
                     key={course._id}

@@ -13,12 +13,12 @@ const LeftSideNav = () => {
     }, [])
 
     return (
-        <div>
-            <h2>List of Courses</h2>
+        <div className='bg-primary text-white p-4'>
+            <h2 className='mb-3'>List of Courses</h2>
             <div>
                 {
                     lists.map(list => <p key={list.course_id}>
-                        <Link to={`/courseList/${list.course_id}`}>{list.course_name}</Link>
+                        <Link to={`/courseList/${list.course_id}`}><button type="button" class="btn btn-dark w-100">{list.course_name}</button></Link>
                     </p>)
                 }
             </div>

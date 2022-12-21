@@ -3,7 +3,7 @@ import Card from 'react-bootstrap/Card';
 
 const FAQpage = () => {
     return (
-        <div>
+        <div className='mb-4'>
             <div className='mt-4 text-center'>
                 <h1>Frequently Asked Question</h1>
             </div>
